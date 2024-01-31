@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <header id="header">
       <div className={`header-content ${isScrolled ? "text-dark" : ""}`}>
-        <div className="header-left">Vinay Reddy</div>
+        <div className="header-left">Vinay</div>
         {/* Add other header elements if needed */}
       </div>
     </header>
