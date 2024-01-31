@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+
+/* =================== Header =====================*/
+:root {
+  --header-background-color: hsl(255, 90%, 60%);
+  --header-text-color: #fff;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: var(--header-background-color);
+  color: var(--header-text-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 2px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-left {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px; /* Add this line to move the text down by 20px */
+}
+
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0; /* Add this line to remove padding */
+}
+
+.image {
+  max-width: 700px;
+  margin-top: 70px;
+}
+
+.bg-header{
+  background-color: white;
+}
+.text-dark {
+  color: black;
+}
+/* =================== body =====================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0; /* Add this line to remove padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  
+  .signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   /* Adjust the margin-top as needed */
+  }
+  
+  
+  .signin h2 {
+    margin: 5px 0; /* Adjust top and bottom margin */
+  }
+  
+  .signin h4 {
+    margin: 5px 0; /* Adjust top and bottom margin */
+  }
+  
+.content{
+    padding: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.fb-login-button span {
+    display: none;
+}
+
+.custom-fb-text {
+    font-size: 12px;
+    color: #000;
+}
+
+form {
+    border: none;
+}
+
+
+.connect {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+    margin: 5px 5px;
+    
+  }
+  
+  .facebook,
+  .google {
+    width: 50%; /* Equal width for both buttons */
+  }
+  
+
+.g_id_signin, .fb-login-button {
+    width: 100%;
+}
+
+
+
+/* =================== Footer =====================*/
+
+
+
+
+
+/* Add this style to set the background color for the footer */
+.bg-footer {
+  width: 100%;
+  background-color: hsl(255, 90%, 60%); /* Set your desired background color */
+  padding: 20px; /* Adjust the padding as needed */
+  color: white; /* Set the text color */
+  text-align: center; /* Align the links in the center */
+}
+
+.footer__social {
+  display: flex;
+  align-items: center; /* Center the items vertically */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.footer__social-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 10px; /* Adjust the margin between links */
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer__social-link:hover {
+  transform: scale(1.5);
+}
+
+
+
+
