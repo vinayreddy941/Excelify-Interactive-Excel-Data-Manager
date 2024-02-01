@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project README</title>
+
 </head>
 <body>
-  <h1>Project Name</h1>
+  <h1>Excelify: Interactive Excel Data Manager.</h1>
   <p>This project is a web application developed using React.js for front-end development. It provides a user-friendly interface for managing and analyzing data stored in Excel files. Users can sign in securely, upload Excel files, and view the uploaded data in a tabular format.</p>
   
   <h2>Hosted Application</h2>
