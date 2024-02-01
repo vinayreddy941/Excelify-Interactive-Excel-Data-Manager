@@ -27,12 +27,38 @@ const SignIn = () => {
       document.body.removeChild(script);
     };
   }, []);
+  useEffect(() => {
+    // Dynamically load the Facebook SDK script
+    const script = document.createElement("script");
+    script.src = "https://connect.facebook.net/en_US/sdk.js";
+    script.async = true;
+    script.defer = true;
+    script.crossOrigin = "anonymous";
+    document.body.appendChild(script);
+
+    script.onload = () => {
+      // Initialize Facebook SDK after loading
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId: "YOUR_FACEBOOK_APP_ID",
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: "v13.0"
+        });
+      };
+    };
+
+    return () => {
+      // Clean up script tag to avoid memory leaks
+      document.body.removeChild(script);
+    };
+  }, []);
   
 
   return (
     <main>
 
-      <div className="buttomg">
+      <div>
         <Header />
         <div className="image-container">
           <img className="image" src= "logo.svg"  alt="Logo" />
@@ -45,16 +71,17 @@ const SignIn = () => {
           <div className="content">
             <div className="connect">
                 <div className="facebook">
-                  <div id="fb-root"></div>
-                    <div
-                      className="fb-login-button"
-                      data-max-rows="1"
-                      data-size="<medium, large>"
-                      data-button-type="continue_with"
-                      data-width="<100% or px>"
-                      data-scope="<comma separated list of permissions, e.g. public_profile, email>"> 
-                    </div>
-                  </div>
+                <div id="fb-root"></div>
+                <div
+                  className="fb-login-button"
+                  data-width=""
+                  data-size="large"
+                  data-button-type=""
+                  data-layout=""
+                  data-auto-logout-link="true"
+                  data-use-continue-as="false"
+                ></div>
+              </div>
                 <div className="google">
                   <div
                     id="g_id_onload"
