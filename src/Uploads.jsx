@@ -104,7 +104,7 @@ const UploadPage = () => {
         <div className="box2">
           <h1>Upload CSV</h1>
           <div className="small-box" ref={dropAreaRef} id="dropArea">
-            <img src="../public/excel.png" alt="XLSX Logo" className="xlsx-logo" />
+            <img src="/excel.png" alt="XLSX Logo" className="xlsx-logo" />
             <label className="droop" htmlFor="fileInput">
               <p>{fileName ? fileName : "Drop your Excel sheet here or Browse"}</p>
             </label>
