@@ -6,6 +6,7 @@
 
 </head>
 <body>
+
   <h1>Excelify: Interactive Excel Data Manager.</h1>
   <p>This project is a web application developed using React.js for front-end development. It provides a user-friendly interface for managing and analyzing data stored in Excel files. Users can sign in securely, upload Excel files, and view the uploaded data in a tabular format.</p>
   
