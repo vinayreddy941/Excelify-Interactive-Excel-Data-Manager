@@ -113,7 +113,7 @@ const SignIn = () => {
                 <button type="submit" className="signin-container green" onClick={handleSubmit}>
                   Sign In
                 </button>
-                <h4>
+                <h4 className="Register">
                   Don't have an account? <a href="register.html">Register here</a>
                 </h4>
               </form>
