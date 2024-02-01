@@ -1,6 +1,5 @@
-// Header.js
 import React, { useEffect, useState } from "react";
-import "./style.css"; // Create a separate CSS file for styling if needed
+import "./style.css"; 
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +31,7 @@ const Header = () => {
     <header id="header">
       <div className={`header-content ${isScrolled ? "text-dark" : ""}`}>
         <div className="header-left">Vinay</div>
-        {/* Add other header elements if needed */}
+        
       </div>
     </header>
   );

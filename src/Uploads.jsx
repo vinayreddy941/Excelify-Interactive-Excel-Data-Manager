@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import * as XLSX from "xlsx"; // Import XLSX library
+import * as XLSX from "xlsx";
 
 import "./styles.css"
 const UploadPage = () => {
@@ -15,7 +15,7 @@ const UploadPage = () => {
     const file = fileInput.files[0];
     if (file) {
       setFileName(file.name);
-      // Render remove button
+      
       const dropArea = dropAreaRef.current;
       const removeButton = document.createElement("button");
       removeButton.textContent = "Remove File";
@@ -88,7 +88,7 @@ const UploadPage = () => {
     <div className="upload">
       <Header />
       <div className="containerr">
-        {/* Header Component */}
+        
         <div className="box1">
           <ul>
             <li><i className="ri-dashboard-fill"></i> Dashboard</li>
@@ -109,7 +109,7 @@ const UploadPage = () => {
               <p>{fileName ? fileName : "Drop your Excel sheet here or Browse"}</p>
             </label>
             <input type="file" id="fileInput" accept=".xlsx, .xls" ref={fileInputRef} onChange={handleFileSelect} />
-            <div className="button-container"> {/* Added button container */}
+            <div className="button-container"> 
               <a href="#" className="button" id="readButton">Read Excel Data</a>
             </div>
           </div>

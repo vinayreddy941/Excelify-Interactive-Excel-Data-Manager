@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
@@ -15,7 +14,7 @@ const SignIn = () => {
     navigate("/Uploads");
   };
   useEffect(() => {
-    // Dynamically load the Google Sign-In library script
+    // to load the Google Sign-In library script
     const script = document.createElement("script");
     script.src = "https://accounts.google.com/gsi/client";
     script.async = true;
@@ -23,12 +22,12 @@ const SignIn = () => {
     document.body.appendChild(script);
 
     return () => {
-      // Clean up script tag to avoid memory leaks
+    
       document.body.removeChild(script);
     };
   }, []);
   useEffect(() => {
-    // Dynamically load the Facebook SDK script
+    // to load the Facebook SDK script
     const script = document.createElement("script");
     script.src = "https://connect.facebook.net/en_US/sdk.js";
     script.async = true;
@@ -37,7 +36,7 @@ const SignIn = () => {
     document.body.appendChild(script);
 
     script.onload = () => {
-      // Initialize Facebook SDK after loading
+    
       window.fbAsyncInit = function() {
         FB.init({
           appId: "YOUR_FACEBOOK_APP_ID",
@@ -49,7 +48,7 @@ const SignIn = () => {
     };
 
     return () => {
-      // Clean up script tag to avoid memory leaks
+      
       document.body.removeChild(script);
     };
   }, []);

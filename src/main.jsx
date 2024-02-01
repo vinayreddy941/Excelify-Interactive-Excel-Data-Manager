@@ -1,4 +1,3 @@
-// main.jsx
 
 import React from "react";
 import ReactDOM from "react-dom";
@@ -11,8 +10,8 @@ const Root = () => (
     <Routes>
       <Route path="/" element={<SignIn />} />
       <Route path="/Uploads" element={<UploadPage />} />
-      {/* Add other routes as needed */}
-    </Routes>
+      
+    </Routes>s
   </Router>
 );
 
