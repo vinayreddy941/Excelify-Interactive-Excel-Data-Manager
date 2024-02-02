@@ -38,6 +38,7 @@
   </ol>
 
   <h2>Contributing</h2>
+  
   <p>Contributions are welcome! Please fork the repository and submit a pull request with your changes.</p>
 
 </body>
