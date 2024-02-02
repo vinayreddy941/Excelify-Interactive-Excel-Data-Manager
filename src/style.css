@@ -144,11 +144,13 @@ input {
 }
 
 .bg-footer {
+  bottom: 0;
   width: 100%;
   background-color: hsl(255, 90%, 60%);
   padding: 20px;
   color: white;
   text-align: center;
+  
 }
 
 .footer__social {
@@ -169,16 +171,7 @@ input {
   transform: scale(1.5);
 }
 
-.bg-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: hsl(255, 90%, 60%);
-  padding: 20px;
-  color: white;
-  text-align: center;
-  z-index: 1000;
-}
+
 
 @media screen and (max-width: 600px) {
   .header-content {

@@ -11,7 +11,7 @@ const Root = () => (
       <Route path="/" element={<SignIn />} />
       <Route path="/Uploads" element={<UploadPage />} />
       
-    </Routes>s
+    </Routes>
   </Router>
 );
 

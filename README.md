@@ -15,14 +15,16 @@
 
   <h2>Screenshots</h2>
   <div>
-    <img src="Screenshot 2024-02-01 173310.png"    alt="Screenshot 1">
-    <img src="Screenshot 2024-02-01 172701.png" alt="Screenshot 2">
-    <img src="Screenshot 2024-02-01 172717.png" alt="Screenshot 3">
-    <img src="Screenshot 2024-02-01 172930.png" alt="Screenshot 4">
-    <img src="Screenshot 2024-02-01 172942.png" alt="Screenshot 5">
-    <img src="Screenshot 2024-02-01 173001.png" alt="Screenshot 6">
-    <img src="Screenshot 2024-02-01 173418.png" alt="Screenshot 7">
-    <img src="Screenshot 2024-02-01 173541.png" alt="Screenshot 8">
+    <img src="Screenshot 2024-02-01 173418.png" alt="Screenshot 1">
+    <img src="Screenshot 2024-02-02 122158.png" alt="Screenshot 2">
+    <img src="Screenshot 2024-02-02 122148.png" alt="Screenshot 3">
+    <img src="Screenshot 2024-02-02 122128.png" alt="Screenshot 4">
+    <img src="Screenshot 2024-02-02 122109.png" alt="Screenshot 5">
+    <img src="Screenshot 2024-02-02 122020.png" alt="Screenshot 6">
+    <img src="Screenshot 2024-02-02 122004.png" alt="Screenshot 7">
+    <img src="Screenshot 2024-02-02 121951.png" alt="Screenshot 8">
+    <img src="Screenshot 2024-02-01 173541.png" alt="Screenshot 9">
+
   </div>
 
   <h2>Usage</h2>
