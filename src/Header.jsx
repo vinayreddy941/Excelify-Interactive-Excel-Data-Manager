@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <header id="header">
       <div className={`header-content ${isScrolled ? "text-dark" : ""}`}>
-        <div className="header-left">Vinay</div>
+        <div className="header-left">OpeninApp</div>
         
       </div>
     </header>
