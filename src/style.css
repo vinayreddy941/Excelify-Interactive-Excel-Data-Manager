@@ -219,7 +219,7 @@ input {
     display: flex;
     gap: 10px;
     margin: 5px 5px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
